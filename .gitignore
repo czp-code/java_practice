@@ -1,0 +1,33 @@
+# 编译产物
+*.class
+out/
+target/
+build/
+
+# Maven 包装器（练习不需要提交）
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+*.code-profile
+
+# Claude Code 本机配置（含机器专属的 JAVA_HOME 路径，不提交）
+.claude/
+
+# macOS
+.DS_Store
+
+# 日志
+*.log
+hs_err_pid*.log
+replay_pid*.log
